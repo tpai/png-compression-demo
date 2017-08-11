@@ -1,6 +1,6 @@
 # PNG Compression
 
-Compare [sharp](https://github.com/lovell/sharp) and [tinify](https://github.com/tinify/tinify-nodejs) with compression time and space saving.
+Compare [sharp](https://github.com/lovell/sharp) with [tinify](https://github.com/tinify/tinify-nodejs) between compression time and space saving.
 
 ### Prerequisites
 
