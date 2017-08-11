@@ -1,0 +1,17 @@
+{
+  "name": "png-compression",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js && node calc.js",
+    "compress": "node index.js",
+    "calc": "node calc.js",
+    "postinstall": "[ -f .env ] || cp .env.example .env"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "sharp": "^0.18.2",
+    "tinify": "^1.5.0"
+  }
+}
